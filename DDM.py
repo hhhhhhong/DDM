@@ -19,7 +19,7 @@ def CalDDM(divi, diviGrowth, profit):
 
 def main():
    divi = float(input('Input dividend:\n'))
-   diviGrowth = float(input('Input dividend Growth%:\n'))
+   diviGrowth = float(input('Input dividend Growth%:\n')) / 100
    profit = 0.1
    CalDDM(divi, diviGrowth, profit)
 
